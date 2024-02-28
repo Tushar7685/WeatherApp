@@ -41,6 +41,7 @@ function switchTab(newTab) {
 userTab.addEventListener("click", () => {
     //pass clicked tab as input paramter
     switchTab(userTab);
+    errorInfo.classList.remove("active");
 });
 
 searchTab.addEventListener("click", () => {
